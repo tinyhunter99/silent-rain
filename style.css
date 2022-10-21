@@ -20,6 +20,15 @@ main{
     flex-direction: column;
 }
 
+i{
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 10vh;
+    left: 10vh;
+    transform: translate(-50%, -50%);
+}
+
 .row{
     width: 1000px;
     /* text-align: center; */
