@@ -55,5 +55,12 @@ function getWeather(city) {
 form.addEventListener('submit', function (event) {
     // console.log(search.value);
     event.preventDefault();
-    getWeather(search.value);
+    //changes performed by DEEPAK Joshi to handle the null input edge case
+    if(search.value == "")
+    {
+        weather.innerHTML = "Empty field cannot be proccessed further";
+    }
+    else{
+        getWeather(search.value);
+    }
 });
