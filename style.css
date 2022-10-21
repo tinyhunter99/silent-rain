@@ -7,7 +7,11 @@
     text-transform: capitalize;
 }
 body{
-    background-color: rgb(54, 224, 150);
+    /* background-color: rgb(54, 224, 150); */
+    background-image: url('background\ for\ hactober2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 main{
@@ -24,7 +28,7 @@ main{
     width: 1000px;
     /* text-align: center; */
     margin: 10px;
-    margin-bottom: 0;
+    margin-bottom: 26px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,4 +48,5 @@ main{
 #weather{
     position: relative;
     right: 12px;
+    bottom: -22px;
 }
